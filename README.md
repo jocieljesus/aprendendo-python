@@ -2,6 +2,6 @@
 
 ## Primeira aula
 
-### Progrmando em Python
+### Programando em Python
  - Variáveis
  
