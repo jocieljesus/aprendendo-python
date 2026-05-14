@@ -8,11 +8,11 @@ if frequencia > 0 :
     
     media = (nota1 + nota2) / 2
 
-    if media >= 7 : 
+    if media >= 7 :
         print("APROVADO")
     elif media>=5: 
         print("RECUPERAÇÃO")
-    elif media < 5:
+    else :
         print("REPROVADO")
 else: 
     print("Aluno não foi as aulas")
