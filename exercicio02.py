@@ -10,3 +10,4 @@ elif imc >= 25 and imc <=29.9:
     print(f"Peso {imc} normal")
 else:
     print(f"Obesidade {imc}")
+
