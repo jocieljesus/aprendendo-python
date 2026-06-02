@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abca4c9-d5b5-46ab-b4ce-abbccefc1a0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AtividadeAssincrona.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/caixa-eletronico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/exeCalc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/exemplo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/exemploWhile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas-for/while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aprendendo-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aprendendo-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas-for/ex016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math-case/desafio01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math-case/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math-case/ex02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.AtividadeAssincrona.executor": "Run",
     "Python.caixa-eletronico.executor": "Run",
+    "Python.ex01.executor": "Run",
+    "Python.ex016.executor": "Run",
+    "Python.ex02.executor": "Run",
+    "Python.ex05.executor": "Run",
     "Python.ex06.executor": "Run",
     "Python.ex09.executor": "Run",
     "Python.exeCalc.executor": "Run",
@@ -107,7 +104,9 @@
       <workItem from="1779908347755" duration="5079000" />
       <workItem from="1779989169418" duration="1686000" />
       <workItem from="1780101124397" duration="13000" />
-      <workItem from="1780344260209" duration="1922000" />
+      <workItem from="1780344260209" duration="2604000" />
+      <workItem from="1780355771278" duration="671000" />
+      <workItem from="1780420878405" duration="8857000" />
     </task>
     <servers />
   </component>
@@ -126,13 +125,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aprendendo_python$exemplo2.coverage" NAME="exemplo2 Coverage Results" MODIFIED="1779734889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
     <SUITE FILE_PATH="coverage/aprendendo_python$ex09.coverage" NAME="ex09 Coverage Results" MODIFIED="1779820573996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
     <SUITE FILE_PATH="coverage/aprendendo_python$AtividadeAssincrona.coverage" NAME="AtividadeAssincrona Coverage Results" MODIFIED="1779731027211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex05.coverage" NAME="ex05 Coverage Results" MODIFIED="1780421450003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math-case" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$exemploWhile.coverage" NAME="exemploWhile Coverage Results" MODIFIED="1779734994798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1780429629838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math-case" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex06.coverage" NAME="ex06 Coverage Results" MODIFIED="1779818240065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex016.coverage" NAME="ex016 Coverage Results" MODIFIED="1780433124375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$exemplo2.coverage" NAME="exemplo2 Coverage Results" MODIFIED="1779734889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1780429734692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math-case" />
     <SUITE FILE_PATH="coverage/aprendendo_python$caixa_eletronico.coverage" NAME="caixa-eletronico Coverage Results" MODIFIED="1779989572861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
     <SUITE FILE_PATH="coverage/aprendendo_python$while.coverage" NAME="while Coverage Results" MODIFIED="1779821911283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$exemploWhile.coverage" NAME="exemploWhile Coverage Results" MODIFIED="1779734994798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
     <SUITE FILE_PATH="coverage/aprendendo_python$exeCalc.coverage" NAME="exeCalc Coverage Results" MODIFIED="1780346041211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex06.coverage" NAME="ex06 Coverage Results" MODIFIED="1779818240065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
   </component>
 </project>
