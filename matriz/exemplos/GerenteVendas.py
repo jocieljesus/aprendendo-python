@@ -9,10 +9,10 @@ Crie um programa que processe esses dados e exiba:
 
 
 vendas = [
-    [1200, 850, 900, 1500],         # Vendedor 1, dias 1,2,3,4
-    [900, 1100, 1000, 1300],        # Vendedor 2
-    [1500, 1600, 1400, 1800],       # Vendedor 3
-    [700, 600, 800, 900]            # Vendedor 4
+    [1200, 850, 900, 1500],
+    [900, 1100, 1000, 1300],
+    [1500, 1600, 1400, 1800],
+    [700, 600, 800, 900]
 ]
 
 vendedoresTotal = []

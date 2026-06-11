@@ -6,8 +6,8 @@ Crie uma matriz 4x4 que represente um oceano. Esconda um único navio (represent
 oceano = [
     ['~', '~', '~', '~'],
     ['~', '~', '~', '~'],
-    ['~', '~', 'N', '~'],
-    ['~', '~', '~', '~']
+    ['~', '~', '~', '~'],
+    ['~', '~', 'N', '~']
 ]
 
 print("********************************************")
@@ -19,8 +19,8 @@ print(" Para começar, você precisa escolher para onde irá o seu primeiro canh
 while True:
 
     mira = input(" Mire utilizando a linha e a coluna separados por vírgula para lançar: ").split(",")
-    linha = int(mira[0])
-    coluna = int(mira[1])
+    linha = int(mira[0])-1
+    coluna = int(mira[1])-1
 
     if oceano[linha][coluna] == "N":
         print(" VOCÊ AFUNDOU O NAVIO")
