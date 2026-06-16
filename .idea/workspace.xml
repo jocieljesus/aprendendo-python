@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abca4c9-d5b5-46ab-b4ce-abbccefc1a0f" name="Changes" comment="math case">
-      <change afterPath="$PROJECT_DIR$/dicionarios/exemplos/estoque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicionarios/exemplos/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicionarios/exemplos/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicionarios/exemplos/perfis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicionarios/exercicios/contagem_frase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicionarios/exercicios/dicionario_de_quadrados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicionarios/exercicios/estoque_loja.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aprendendo-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aprendendo-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,7 +65,11 @@
     "Python.MultiplicadorEscalar.executor": "Run",
     "Python.SomandoDiagonal.executor": "Run",
     "Python.caixa-eletronico.executor": "Run",
+    "Python.cont.executor": "Run",
+    "Python.contagem_frase.executor": "Run",
+    "Python.dicionario_de_quadrados.executor": "Run",
     "Python.estoque.executor": "Run",
+    "Python.estoque_loja.executor": "Run",
     "Python.ex01.executor": "Run",
     "Python.ex016.executor": "Run",
     "Python.ex02.executor": "Run",
@@ -71,6 +81,7 @@
     "Python.exemplo2.executor": "Run",
     "Python.exemploWhile.executor": "Run",
     "Python.perfis.executor": "Run",
+    "Python.sistema-vendas.executor": "Run",
     "Python.while.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -78,7 +89,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "projeto",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/jociel61211327/OneDrive - SENAC DF/Documentos/projetos/aprendendo-python",
     "node.js.detected.package.eslint": "true",
@@ -99,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174" />
       </set>
     </attachedChunks>
   </component>
@@ -123,6 +134,8 @@
       <workItem from="1780509255018" duration="4317000" />
       <workItem from="1780791422700" duration="6377000" />
       <workItem from="1780872713170" duration="5257000" />
+      <workItem from="1781204201103" duration="3308000" />
+      <workItem from="1781304936669" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="math case">
       <option name="closed" value="true" />
@@ -150,28 +163,34 @@
           <line>3</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dicionarios/exercicios/estoque_loja.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex06.coverage" NAME="ex06 Coverage Results" MODIFIED="1779818240065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex03.coverage" NAME="ex03 Coverage Results" MODIFIED="1780792248929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex09.coverage" NAME="ex09 Coverage Results" MODIFIED="1779820573996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$exeCalc.coverage" NAME="exeCalc Coverage Results" MODIFIED="1780346041211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$caixa_eletronico.coverage" NAME="caixa-eletronico Coverage Results" MODIFIED="1779989572861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$GerenteVendas.coverage" NAME="GerenteVendas Coverage Results" MODIFIED="1780796153849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
     <SUITE FILE_PATH="coverage/aprendendo_python$MultiplicadorEscalar.coverage" NAME="MultiplicadorEscalar Coverage Results" MODIFIED="1780794717339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1780877657384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex016.coverage" NAME="ex016 Coverage Results" MODIFIED="1780433124375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex09.coverage" NAME="ex09 Coverage Results" MODIFIED="1779820573996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex03.coverage" NAME="ex03 Coverage Results" MODIFIED="1780792248929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
     <SUITE FILE_PATH="coverage/aprendendo_python$AtividadeAssincrona.coverage" NAME="AtividadeAssincrona Coverage Results" MODIFIED="1779731027211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$perfis.coverage" NAME="perfis Coverage Results" MODIFIED="1780879211444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex05.coverage" NAME="ex05 Coverage Results" MODIFIED="1780421450003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math-case" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$exemploWhile.coverage" NAME="exemploWhile Coverage Results" MODIFIED="1779734994798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex02.coverage" NAME="ex02 Coverage Results" MODIFIED="1780877657384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$BatalhaNaval.coverage" NAME="BatalhaNaval Coverage Results" MODIFIED="1780798606217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex06.coverage" NAME="ex06 Coverage Results" MODIFIED="1779818240065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$dicionario_de_quadrados.coverage" NAME="dicionario_de_quadrados Coverage Results" MODIFIED="1781208760635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exercicios" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex016.coverage" NAME="ex016 Coverage Results" MODIFIED="1780433124375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$exemplo2.coverage" NAME="exemplo2 Coverage Results" MODIFIED="1779734889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1780877341093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$caixa_eletronico.coverage" NAME="caixa-eletronico Coverage Results" MODIFIED="1779989572861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$while.coverage" NAME="while Coverage Results" MODIFIED="1779821911283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
     <SUITE FILE_PATH="coverage/aprendendo_python$estoque.coverage" NAME="estoque Coverage Results" MODIFIED="1780878615690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
     <SUITE FILE_PATH="coverage/aprendendo_python$SomandoDiagonal.coverage" NAME="SomandoDiagonal Coverage Results" MODIFIED="1780792811877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$perfis.coverage" NAME="perfis Coverage Results" MODIFIED="1780879211444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$exemplo2.coverage" NAME="exemplo2 Coverage Results" MODIFIED="1779734889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$GerenteVendas.coverage" NAME="GerenteVendas Coverage Results" MODIFIED="1780796153849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$exemploWhile.coverage" NAME="exemploWhile Coverage Results" MODIFIED="1779734994798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$BatalhaNaval.coverage" NAME="BatalhaNaval Coverage Results" MODIFIED="1780798606217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matriz/exemplos" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex05.coverage" NAME="ex05 Coverage Results" MODIFIED="1780421450003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math-case" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$while.coverage" NAME="while Coverage Results" MODIFIED="1779821911283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
-    <SUITE FILE_PATH="coverage/aprendendo_python$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1780877341093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dicionarios/exemplos" />
+    <SUITE FILE_PATH="coverage/aprendendo_python$exeCalc.coverage" NAME="exeCalc Coverage Results" MODIFIED="1780346041211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listas-for" />
   </component>
 </project>
